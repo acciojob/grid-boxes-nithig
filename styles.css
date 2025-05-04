@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
 #grid{
 	display:grid;
-	height:400px
+	grid-template-rows:124px 124px 124px 124px;
 }
 
 .grid-item{
@@ -14,26 +14,19 @@
 }
 
 .item-1{
-	grid-column-start:1;
-	grid-column-end:5;
+	grid-column:span 4/auto;
 }
 .item-2{
-	grid-row-start:2;
-	grid-row-end:6;
+	grid-row:span 4/auto;
+	
 }
-.item-3{
-	grid-column-start:2;
-	grid-column-end:3;
-}
+
 .item-4{
-	grid-column-start:3;
-	grid-column-end:5;
+	grid-column:span 2/auto;
+	
 }
 .item-5{
-	grid-column-start:2;
-	grid-column-end:4;
+	grid-column:span 2/auto;
 }
 .item-10{
-	grid-column-start:2;
-	grid-column-end:5;
-}
+	grid-column:span 3/auto;
