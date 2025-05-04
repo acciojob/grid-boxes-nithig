@@ -1,7 +1,7 @@
 /*  your css code here. If applicable */
 #grid{
 	display:grid;
-	grid-template-rows:124px 124px 124px 124px;
+	grid-template-rows:124px 124px 124px 124px 124px;
 }
 
 .grid-item{
